@@ -1,0 +1,274 @@
+.captcha {
+    margin-top: 15px;
+    width: 300px;
+}
+
+.captcha-section i {
+    position: absolute;
+}
+
+.captcha-section img {
+    cursor: pointer;
+}
+
+.captcha-section i {
+    position: absolute;
+}
+
+.form-register label {
+    font-weight: normal;
+}
+
+.typo-style-2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #e8770e;
+    text-transform: uppercase;
+    margin-bottom: 10px
+}
+
+.typo-style-2 {
+    display: inline-block;
+}
+
+.typo-style-2 p {
+    font-weight: bold;
+}
+
+.typo-style-2 .size-lg {
+    font-size: 3.8em;
+    margin-bottom: 28px
+}
+
+.login-page .panel-warning {
+    margin-top: 10px;
+}
+
+.typo-style-2 .size-ms {
+    background-color: #4c5198;
+    border-radius: 8px;
+    padding: 21px;
+    vertical-align: top;
+    font-size: 38px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.button-inside {
+    display: table-cell;
+    vertical-align: bottom;
+    float: none;
+    height: 100px;
+}
+
+
+/* Overwrite form-footer in main.css */
+
+.form-footer {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.contact span.fa {
+    font-size: 2em;
+}
+
+.contact h4 {
+    margin-top: 0;
+    color: #525252
+}
+
+.contact .row:not(:first-child) {
+    margin-top: 15px
+}
+
+.contact .form-section {
+    background: #f7f7f7;
+    padding: 2em;
+}
+
+.contact .list-icon-start li {
+    font-weight: 300
+}
+
+.contact .fa-pencil-square-o,
+.contact .fa-globe {
+    color: #6e6c6c;
+    font-size: 23px
+}
+
+.contact-des {
+    color: #636363;
+    font-weight: 300;
+}
+
+.help-group .faq-list i {
+    margin-right: 15px
+}
+
+.help-group .tab-heading {
+    text-transform: uppercase;
+    color: #fff
+}
+
+.help-group .list-group-item:first-child:hover {
+    background-color: #4c5198;
+}
+
+.help-group .list-group-item.active,
+.help-group .list-group-item.active:focus,
+.help-group a.list-group-item:hover,
+.help-group .list-group-item.active:hover {
+    border-color: #fff;
+    background-image: none;
+    background-color: #6c70ae;
+    color: #fff
+}
+
+.help-group.on-top {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    left: 35px;
+    width: 21%;
+    z-index: 999;
+}
+
+.testimonial {
+    margin-bottom: 25px;
+}
+
+.testimonial .item {
+    margin: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 9px #888;
+    border: 2px solid #CDA40A;
+}
+
+.testimonial .quotes {
+    background: #f5ebc8;
+    text-align: center;
+    padding: 1em;
+}
+
+.testimonial .quotes .fa-quote-left {
+    color: #CDA40A;
+    font-size: 29px
+}
+
+.testimonial .quotes p {
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 15px 0 0;
+    line-height: 1.8em;
+    position: relative;
+}
+
+.testimonial .quotes-bottom {
+    padding: .9em .9em;
+    background: #d08208;
+    text-align: center;
+}
+
+.testimonial .quotes-bottom p {
+    font-size: 17px;
+    color: #fff;
+    margin: 0;
+}
+
+.testimonial .quotes-bottom h4 {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 5px
+}
+
+.testimonial .owl-theme .owl-controls {
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+}
+
+.testimonial .owl-theme .owl-controls .owl-page span {
+    width: 18px;
+    height: 18px;
+}
+
+#accordion .panel-title {
+    font-size: 15px;
+    color: #e8770e;
+    position: relative;
+    padding-right: 15px;
+}
+
+.faq-title {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    font-weight: 300
+}
+
+.faq-title:not(:first-child) {
+    margin-top: 22px
+}
+
+#accordion .panel-faq:hover {
+    box-shadow: 4px -2px 9px #d2cece;
+}
+
+#accordion .panel-faq {
+    border-color: #f39c124f;
+    box-shadow: 2px 3px 9px #d2cece;
+    margin: 0 0 17px 0px;
+    transition: box-shadow .2s;
+    background-image: none;
+    background-color: #f7f7f7
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+
+.panel-heading [data-toggle="collapse"].collapsed::after {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    color: #e8770e;
+}
+
+.panel-heading [data-toggle="collapse"]::after {
+    font-family: 'FontAwesome';
+    content: "\f107";
+    color: #e8770e;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width:767px) {
+    .button-inside {
+        height: 60px;
+    }
+    input.captcha {
+        width: 100%
+    }
+}
+
+@media (max-width: 768px) {
+    .help-group.on-top {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+    }
+    .typo-style-2 .size-lg {
+        font-size: 3em;
+    }
+}
